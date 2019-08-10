@@ -1,0 +1,17 @@
+/.gradle/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.pyc
+build/
+out/
+/build/
+/out/
+generated-src/
+.classpath
+.project
+bin
+.settings
+.vscode
+.rucksack
