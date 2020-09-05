@@ -5,8 +5,8 @@ val kotlin_coroutines_version: String by project
 
 plugins {
   base
-  kotlin("jvm") version "1.3.41"
-  id("com.github.johnrengelman.shadow") version "5.1.0"
+  kotlin("jvm") version "1.4.0"
+  id("com.github.johnrengelman.shadow") version "6.0.0"
 }
 
 allprojects {
@@ -46,5 +46,5 @@ allprojects {
 }
 
 tasks.withType<Wrapper> {
-  gradleVersion = "5.6-rc-2"
+  gradleVersion = "6.6.1"
 }
